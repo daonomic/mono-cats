@@ -1,5 +1,5 @@
 name := "mono"
-version := "0.1.0"
+version := "0.1.1"
 scalaVersion := "2.12.5"
 
 bintrayOrganization := Some("daonomic")
@@ -8,5 +8,5 @@ bintrayPackageLabels := Seq("mono", "cats", "daonomic", "reactive", "reactor", "
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 organization := "io.daonomic.cats"
 
-libraryDependencies += "io.projectreactor" % "reactor-core" % "3.1.5.RELEASE"
+libraryDependencies += "io.projectreactor" % "reactor-core" % "3.1.6.RELEASE"
 libraryDependencies += "org.typelevel" %% "cats-core" % "1.1.0"
